@@ -21,6 +21,5 @@ CREATE TABLE tasks (
     title VARCHAR(255) UNIQUE NOT NULL,
     status ENUM('completed', 'not') NOT NULL DEFAULT 'not',
     PRIMARY KEY (id)
-)ك
 );
-## installation
+
